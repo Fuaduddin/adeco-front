@@ -1,0 +1,1225 @@
+body
+{
+    overflow-x: hidden;
+    overflow: scroll;
+}
+/* Top Header Start */
+.topheader{
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    background: black;
+    justify-content: space-evenly;
+}
+.left {
+    display: flex;
+    width: 45%;
+}
+.red {
+    background: red;
+    padding-right: 3%;
+}
+.red a {
+    color: white;
+    padding-top: 5%;
+}
+.black a {
+    color: white;
+}
+
+.topheader p {
+    font-size: 17px;
+    color: gray;
+}
+/* Top Header End */
+
+/* Nav Bar Start */
+.navs {
+    background: red;
+}
+
+.logo {
+    position: relative;
+    left: 11%;
+}
+
+.Bar {
+    padding-right: 28%;
+}
+
+.Bar span {
+    color: white;
+}
+/* Nav Bar End */
+/* Top Banner Star*/
+
+.top-banner {
+    background-image: url("banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 60vh;
+}
+
+.text {
+    padding: 1% 0 1% 7%;
+}
+.top-banner h1,
+p {
+    color: white;
+}
+.top-banner p {
+    font-size: 23px;
+}
+.top-banner h1 
+{
+    font-size: 40px;
+}
+.top-banner button {
+    width: 25%;
+    height: 60px;
+    border-radius: 2%;
+    margin: 1% 1% 1% 5%;
+    background: #ED2E22;
+    border: 1px solid #E72C22;
+}
+/* Top Banner End*/
+/* Job Filter Part Star*/
+.jobcard,.human-resources {
+    background: lightgray;
+    padding-top: 3%;
+}
+.human-resources h2 {
+    color: red;
+    padding-left: 1%;
+    font-size: 38px;
+}
+.human-resources button {
+    width: 100%;
+    height: 70px;
+    border-radius: 2%;
+    background: #ED2E22;
+    border: 1px solid #E72C22;
+}
+.human-resources h3 {
+    color: red;
+    padding-left: 18%;
+    font-size: 30px;
+}
+ .results label {
+    font-size: 25px;
+}
+.results select {
+    height: 42px;
+    padding: 0 9em 0 .5em;
+    line-height: 26px;
+    font-size: 16px;
+    width: 98%;
+    border-radius: 2px;
+    color: grey;
+    appearance: none;
+    text-align: left;
+}
+.cusatom-arrow {
+    color: red;
+    position: relative;
+    left: 90%;
+    bottom: 30px;
+}
+.results select option {
+    font-size: 20px;
+}
+.range {
+    padding-top: 2%;
+    position: relative;
+    top: 2px;
+    left: 5%;
+    font-size: 20px;
+    border-bottom: 2px solid lightslategray;
+    width: 95%;
+}
+
+.limit {
+    text-align: right;
+    padding-right: 16%;
+    color: red;
+}
+
+.line {
+    padding-left: 10%;
+    color: black;
+}
+
+.Progress {
+    position: relative;
+    left: 77%;
+    width: 11%;
+    height: 12px;
+    border-radius: 3px;
+    appearance: none;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+}
+.line {
+    padding-left: 10%;
+    color: black;
+}
+.jobcard h4{
+    color: red;
+    font-family: "Houschka Head";
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+    line-height: 21px;
+    text-align: left;
+}
+.subtitle {
+    padding-top: 1%;
+    font-size: 18px;
+    width: 97%;
+    color: black;
+    font-family: "Houschka Head";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 22px;
+    text-align: left;
+}
+.cad {
+    border-bottom: 2px solid grey;
+    height: 116px;
+}
+.jobcard ul {
+    padding-left: 1%;
+    font-size: 16px;
+    list-style-type: none;
+    font-family: "Houschka Head";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 22px;
+    text-align: left;
+}
+.desc {
+    color: red;
+    font-size: 17px;
+    width: 50%;
+}
+.cusatom-des {  
+    float: right;
+    position: relative;
+    bottom: 51px;
+    right: 63px;
+    color: red;
+    height: 2px;
+    font-size: 40px;
+}
+.newa {
+    color: white;
+    background: green;
+    float: right;
+    position: relative;
+    bottom: 224px;
+    right: 17%;
+    font-size: 17px;
+    border-radius: 8px;
+    width: 50px;
+    text-align: center;
+}
+.add {
+    color: lightgray;
+    float: right;
+    font-size: 17px;
+    margin-bottom: 5%;
+    width: 136px;
+    height: 41px;
+    position: relative;
+    bottom: 31%;
+    left: 15%;
+}
+.pagination {
+    background: lightgrey;
+    padding-top: 5%;
+    padding-left: 43%;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.pagination a {
+    display: inline-block;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+}
+
+.next {
+    color: red;
+    position: relative;
+    bottom: 1px;
+    left: 67%;
+}
+
+.cusatom-next {
+    background-color: white;
+    border: 1px solid red;
+    padding: 12px 19px;
+    color: red;
+}
+
+.cusatom-nextd {
+    color: red;
+    position: relative;
+    right: 21%;
+}
+
+/* Job Filter Part End*/
+ /* About HRM Star */
+ .aboutcontent{
+    background: red;
+}
+.aboutcontent h2
+{
+    color: white;
+    font-size: 42px;
+    padding-left: 20%;
+}
+.aboutcontent p
+{
+    font-family: "houschka_headdemibold";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 27px;
+    text-align: left;
+    color: #fff;
+    width: 90%;
+    margin-left: 5%;
+}
+.aboutcontent img
+{
+    width: 100%;
+    height: 796px;
+}
+
+  /* About HRM END */
+   /* Resources Roles Star */
+   .role{
+    background: red;
+}
+.rolecontent h2 
+{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 49px;
+    color: red;
+}
+.role h4
+{
+    color: white;
+    font-size: 42px;
+    padding-left: 20%;
+}
+.roleheader
+{
+    padding: 8% 0% 10% 2%;
+
+}
+.role p
+{
+    font-family: "houschka_headdemibold";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 27px;
+    text-align: left;
+    color: #fff;
+    width: 90%;
+    margin-left: 5%;
+}
+.role img
+{
+    width: 100%;
+    height: 796px;
+}
+
+
+  /* Resources Roles  END */
+ /* Work Sectio Start */
+ .workcontent
+ {
+     background-image: url("work.png");
+     background-repeat:no-repeat;
+     background-size: cover;
+ }               
+ 
+ .card-5 {
+     width: 303px;
+     height: 289px;
+     }
+     .items
+     {
+         padding-top: 10;
+     }
+ 
+ .owl-prev, .owl-next {
+     position: relative;
+     height: 60%;
+ }
+ 
+ .owl-prev {
+     right: 40%;
+     bottom: 170px;
+ 
+ }
+ .owl-next {
+     left: 40%;
+     bottom: 170px;
+ }
+ .card-5
+ {
+    padding-top: 10%;
+     width: 90%;
+     margin-top: 20%;
+ }
+ .items
+ {
+    padding-left: 10%;
+ }
+ 
+ .owl-carousel .owl-item img {
+     display: block;
+     padding-top: 9%;
+     padding-left: 11%;
+ }
+ .workcontent p
+ {
+     color: black;
+     text-align: center;
+     padding-top: 10%;
+ }
+ .sbutton h3
+ {
+     text-align: center;
+     color: white;
+     font-size: 25px;
+ }
+ .sbutton button
+ {
+     width: 30%;
+     margin-left: 40%;
+ }
+ .workcontent
+ {
+     padding-top: 5%;
+     padding-bottom: 10%;
+ }
+
+ .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+.nxt-image
+{
+    position: relative;
+    width: 50px;
+    height: 60px;
+    left: 154%;
+}
+.prv-image
+{
+    position: relative;
+    width: 50px;
+    height: 60px;
+    right: 140%;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+pointer-events: none;
+opacity: 0.2;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+ 
+ /* Work Sectio End */
+ /* Contact us Start */
+ .contactcontent
+ {
+     padding-top: 2%;
+     height: 100%;
+     background-image: linear-gradient(to right, brown , red);
+     padding-bottom: 10%;
+ }
+ .large
+ {
+     float: right;
+     padding: 15px  10px;
+     background-color: white;
+     border: 1px solid red;
+     position: relative;
+     bottom: -79px;
+     right: 44%;
+     font-size: 20px;
+     width: 45%;
+     color: red;
+     height: 60px;
+     text-align: center;
+ }
+ .contactcontent h2
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-right: 20%;
+}
+
+.contact-arrow
+{
+    color: red;
+    position: relative;
+    left: 9%;
+    bottom: -94px;
+    position: relative;
+    left: 46%;
+    bottom: -102px;
+    width: 5%;
+}
+.contact-line
+{
+    position: relative;
+    color: white;
+    left: 40%;
+    bottom: -23px;
+    font-size: 35px;
+}
+ 
+ /* Contact us  End */
+  /* footer 1 Start */
+  .footerfcontent
+  {
+      background: #394447;
+      padding-top: 5%;
+  }
+  .footerfcontent h3
+  {
+      color: white;
+      font-size: 25px;
+      position: relative;
+      top: 20px;
+      left: 1%;
+  }
+  .list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 198%;
+    padding-left: 20%;
+}
+.list li
+{
+    list-style-type: none;
+    color: white;
+}
+ .social-icon 
+{
+    display: flex;
+    width: 15%;
+    padding-left: 163%;
+    padding-top: 1%;
+}
+ .social-icon li
+{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 50% ;
+}
+ .branch h4
+{
+    color: white;
+    font-size: 21px;
+}
+ .branch .search
+{
+    width: 82%;
+    height: 30px;
+    border-style: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+ .branch
+{
+    padding-left: 18%;
+    padding-bottom: 5%;
+}
+ /* Footer 1 End */
+ /* Footer-2 start */
+ .footer2c
+{
+    background: #283133;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.footer2c  img
+{
+    padding-left: 15%;
+}
+.footer2c p
+{
+    color: white;
+    float: right;
+    position: relative;
+    right: -2%;
+}
+ /* Footer-2 end */
+/* Media Query Start */
+/*
+==========================================
+Responsive Design
+==========================================
+*/
+@media (max-width: 575px) {
+ /* top-Header Part Start */
+ .topheader
+ {
+     display: none;
+ }
+/* top-Header Part End */
+/* top-Banner Part Start*/
+    .top-banner
+    {  
+    height: 500px;
+    }
+      .top-banner p 
+      {
+          font-size: 15px;
+      }
+      .top-banner h1
+     {
+         font-size: 15px;
+     }
+      .top-button button
+      {
+          width: 90%;
+          padding: 2%;
+          margin-top: 3%;
+      }
+      /* top-Banner Part End*/
+      /*top-Banner Part End*/
+        /* Job Fielter Part Start */
+        .newa {
+            display: none;
+         }
+         .human-resources h2 {
+             font-size: 23px;
+         }    
+         .human-resources h3 {
+         font-size: 20px;
+     }
+     .human-resources  button {
+         width: 90%;
+         padding: 2%;
+         margin-top: 3%;
+       }
+       .range,.pagination
+       {
+           display: none;
+       }
+          /* Job Fielter Part End */
+          /* About Section Start  */
+          .aboutcontent h2
+{
+    color: white;
+   
+    font-size: 31px;
+    padding-left: 11%;
+
+}
+.role img {
+    width: 100%;
+    height: 232px;
+}
+.aboutcontent p
+{
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+    color: #fff;
+    width: 96%;
+}
+.aboutcontent img {
+    width: 100%;
+    height: 472px;
+}
+ /* About Part End */
+   /* role Section Start  */
+   .rolecontent h2
+   {
+      font-size: 30px;
+   }
+   .rolecontent h4
+   {
+       color: white;
+      
+       font-size: 31px;
+       padding-left: 11%;
+   
+   }
+   .rolecontent p
+   {
+       font-size: 16px;
+       line-height: 27px;
+       text-align: left;
+       color: #fff;
+       width: 96%;
+   }
+   .nxt-image
+{
+    position: relative;
+    width: 50px;
+    height: 60px;
+    left: 100%;
+}
+.prv-image
+{
+    position: relative;
+    width: 29px;
+    height: 32px;
+    right: -22%;
+}
+.sbutton h3
+ {
+     text-align: center;
+     color: white;
+     font-size: 22px;
+ }
+ .sbutton button
+ {
+
+    width: 61%;
+    margin-left: 16%;
+
+ }
+   .large
+   {
+  
+       position: relative;
+       bottom: -5px;
+       right: 34%;
+       font-size: 20px;
+       width: 45%;
+       color: red;
+       text-align: center;
+   }
+   .contactcontent h2
+  {
+    text-align: center;
+    color: white;
+    font-size: 39px;
+    padding-right: 6%;
+  }
+  
+  .contact-arrow
+  {
+      color: red;
+      position: relative;
+      left: 55%;
+      bottom: -61px;
+      position: relative;
+      left: 57%;
+      bottom: -29px;
+      width: 16%;
+  }
+  .contact-line
+  {
+      position: relative;
+      color: white;
+      left: 40%;
+      bottom: -2px;
+      font-size: 35px;
+  }
+  .list {
+      display: block;
+      width: 94%;
+      padding-left: 10%;
+  }
+  .footerfcontent h3 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 6px;
+    left: 1%;
+}
+
+.social-icon {
+    display: flex;
+    width: 15%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.branch .search {
+    width: 59%;
+    height: 35px;
+}
+.branch {
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+.footer2c p {
+    color: white;
+    float: right;
+    position: relative;
+    right: 5%;
+    width: 86%;
+}
+
+}
+ @media (min-width: 576px) and (max-width: 767px) {
+      /* top-Header Part Start */
+      .topheader
+      {
+          display: none;
+      }
+     /* top-Header Part End */
+     /* Top Banner Start*/
+     .top-banner
+     {
+        
+     height: 217px;
+ 
+     }
+     .top-banner p {
+       font-size: 11px;
+   }
+   .top-banner h1 
+   {
+       font-size: 20px;
+   }
+   .top-button button {
+     width: 30%;
+     height: 43px;
+     margin: 0% 0% 0% 2%;
+     padding: 1% 1% 1% 0%;
+   }
+     /* Top Banner End*/
+          /* Human Resource Part Start*/ 
+.human-resources h3 {
+    padding-left: 3%;
+    font-size: 26px;
+}
+        .results select {
+        padding: 0 4em 0 0.5em;
+        }
+        .newa {
+            position: relative;
+            bottom: 257px;
+            right: -6%;
+            font-size: 13px;
+        }
+        .human-resources button {
+            width: 68%;
+            height: 51px;
+        }
+        .range,.pagination
+        {
+            display: none;
+        }
+        /* Human Resource Part End*/
+    /* about strat */
+        .aboutcontent h2
+           {
+            font-size: 31px;
+            padding-left: 11%;
+
+            }
+            .aboutcontent p
+            {
+                font-size: 19px;
+             }
+              /* about end*/
+                  /* role strat */
+                  .rolecontent h2
+           {
+            font-size: 31px;
+            padding-left: 11%;
+
+            }
+            .rolecontent  p
+            {
+                font-size: 19px;
+             }
+              /* role end*/
+              .nxt-image
+              {
+                position: relative;
+                width: 31px;
+                height: 37px;
+                left: 114%;
+              }
+              .prv-image
+              {
+                position: relative;
+                width: 31px;
+                height: 37px;
+                right: 114%;
+              }
+              .sbutton h3
+               {
+                   text-align: center;
+                   color: white;
+                   font-size: 22px;
+               }
+               .sbutton button
+               {
+              
+                  width: 61%;
+                  margin-left: 16%;
+              
+               }
+               /* Contact us Start */
+ .large
+ {
+
+     position: relative;
+     bottom: -38px;
+     right: 34%;
+     font-size: 20px;
+     width: 45%;
+     color: red;
+     text-align: center;
+ }
+ .contactcontent h2
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-right: 5%;
+}
+
+.contact-arrow
+{
+    color: red;
+    position: relative;
+    left: 54%;
+    bottom: -61px;
+    width: 16%;
+}
+.contact-line
+{
+    position: relative;
+    color: white;
+    left: 40%;
+    bottom: -2px;
+    font-size: 35px;
+}
+ /* Contact us  End */
+ .list {
+    display: block;
+    width: 94%;
+    padding-left: 2%;
+}
+
+.footerfcontent h3 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 6px;
+    left: 1%;
+}
+
+.social-icon {
+    display: flex;
+    width: 15%;
+    padding-left: 3%;
+    padding-top: 1%;
+
+}
+.branch {
+    padding-left: 1%;
+    padding-bottom: 5%;
+}
+.footer2c p {
+    color: white;
+    float: right;
+    position: relative;
+    left: 5%;
+}
+
+.branch .search {
+    width: 53%;
+}
+.aboutcontent img {
+    width: 94%;
+    height: 403px;
+}
+}
+              
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+   /* top-Header Part Start */
+   .topheader
+   {
+       width: 100%;
+       height: 39px;
+   }
+   .left
+   {
+       display: inline-flex;
+       width: 44%;
+   }
+     /* top-Header Part End */
+     /* Nav Bar Star */
+     .logo {
+        left: 8%;
+    }
+      /* Nav Bar End */
+      /* Top Banner Start*/
+      .top-banner
+      {
+        height:330px;
+      }
+      .top-banner p {
+        font-size: 16px;
+    }
+    .top-banner h1 
+    {
+        font-size: 30px;
+    }
+    .top-button button {
+        width: 30%;
+        height: 43px;
+        margin: 0% 0% 0% 2%;
+        padding: 1% 1% 1% 0%;
+      }
+ 
+      /* Top Banner End*/
+     /* Human Resource Part Start*/
+     .human-resources h2 {
+        font-size: 37px;
+    }    
+    .human-resources h3 {
+    font-size: 20px;
+}
+        .results select {
+        padding: 0 4em 0 0.5em;
+        }
+        .newa {
+            position: relative;
+            bottom: 223px;
+            right: 35%;        
+            font-size: 17px;
+        }
+        .range
+        {
+            display: none;
+        }
+        .pagination {
+            padding-left: 4%;
+        }
+        /* Human Resource Part End*/
+             /* About Start */
+             .aboutcontent h2
+             {
+        color: white;
+        font-size: 22px;
+        padding-left: 7%;
+      }
+      .aboutcontent h2
+      {
+       font-size: 31px;
+       padding-left: 11%;
+
+       }
+       .aboutcontent p
+       {
+           font-size: 19px;
+        }
+        .prv-image
+        {
+          position: relative;
+          width: 31px;
+          height: 37px;
+          right: 114%;
+        }
+        .nxt-image {
+            position: relative;
+            width: 50px;
+            height: 60px;
+            left: 142%;
+        }
+        .sbutton h3
+         {
+             text-align: center;
+             color: white;
+             font-size: 54px;
+         }
+         .sbutton button
+         {
+        
+      
+    width: 62%;
+    margin-left: 14%;
+    height: 60px;
+
+        
+         }
+        .contactcontent p
+        {
+            position: relative;
+    bottom: -258px;
+    right: 44%;
+    font-size: 20px;
+    width: 45%;
+    color: red;
+    text-align: center;
+        }
+        .contact-line
+        {
+            position: relative;
+            color: white;
+            left: 40%;
+            bottom: -2px;
+            font-size: 35px;
+        }
+        .list {
+            display: block;
+            width: 94%;
+            padding-left: 10%;
+        }
+        
+        .footerfcontent h3 {
+            color: white;
+            font-size: 25px;
+            position: relative;
+            top: 6px;
+            left: 1%;
+        }
+        
+        .social-icon {
+            display: flex;
+            width: 15%;
+            padding-left: 1%;
+            padding-top: 1%;
+        }
+    
+    }
+
+ @media (min-width: 992px) and (max-width: 1200px) {
+ /*Top Header Part Start */
+ .topheader p
+ {
+        width: 241px;
+ }
+/* Nav Bar Star */
+ .logo {
+    left: 8%;
+}
+  /* Nav Bar End */
+  /* Top Banner star*/
+  .top-banner
+  {
+     height: 390px;
+
+  }
+  .top-banner p
+  {
+    font-size: 20px;
+  }
+  .top-banner h1 {
+    font-size: 33px;
+}
+  /* Top Banner End*/
+   /* Human Resource Part Start*/
+   .results select {
+    padding: 0 8em 0 0.5em;
+}
+.newa {
+    bottom: 235px;
+}
+    /* Human Resource Part End*/
+    #fortab
+    {
+        display: none;
+    }
+    .contact-line
+    {
+        position: relative;
+        color: white;
+        left: 40%;
+        bottom: -2px;
+        font-size: 35px;
+    }
+    .list {
+        display: flex;
+       
+
+        padding-left: 10%;
+    }
+    
+    .footerfcontent h3 {
+        color: white;
+        font-size: 25px;
+        position: relative;
+        top: 6px;
+        left: 1%;
+    }
+    .social-icon {
+        display: flex;
+        width: 19%;
+        padding-left: 160%;
+        padding-top: 1%;
+    }
+}
+ @media (min-width: 1201) and (max-width: 1440px) {
+         /* Nav Bar Star */
+         .logo {
+            left: 11%;
+        }
+          /* Nav Bar End */
+           /* About Start */
+           .aboutcontent h2 {
+            color: white;
+            font-size: 22px;
+            padding-left: 1%;
+        }
+        .aboutcontent p {
+            font-family: "houschka_headdemibold";
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 24px;
+            text-align: left;
+            color: #fff;
+            width: 139%;
+            padding-right: 49%;
+        }
+        #fortab
+        {
+            display: none;
+        }
+        .social-icon li {
+            list-style-type: none;
+            display: inline-block;
+            color: white;
+            padding: 10px 15px;
+            border: 1px solid white;
+            border-radius: 50%;
+        }
+    }
